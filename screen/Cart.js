@@ -7,7 +7,7 @@ const Cart = () => {
      <TouchableOpacity style={styles.box}>
        <Image source={require("../assets/Arrow3.png")} />
      </TouchableOpacity>
-     <Text style={{fontSize:22,fontWeight:'700',color:'#363636',marginTop:35,marginBottom:20,}}>Your Cart 👍🏻</Text>
+     <Text style={{fontSize:22,fontWeight:'700',color:'#363636',marginTop:35,marginBottom:18,}}>Your Cart 👍🏻</Text>
      <View style={styles.item}>
       <Image source={require("../assets/47.png")} ></Image>
       <View style={{flexDirection:'column',gap:2,marginLeft:20}}>

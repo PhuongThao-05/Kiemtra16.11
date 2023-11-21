@@ -4,7 +4,7 @@ import React from 'react'
 const Scan = () => {
   return (
     <View style={styles.container}>
-      <Image source={require("../assets/bttt.png")}/>
+      <Image source={require("../assets/bttt.png")} style={{bottom:42}}/>
        <TouchableOpacity style={styles.box}>
          <Image source={require("../assets/Arrow1.png")} />
        </TouchableOpacity>

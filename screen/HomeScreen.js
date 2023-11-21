@@ -22,18 +22,21 @@ const HomeScreen = () => {
                 <Text style={{color:'#B7B7C1',fontSize:12,}}>Scaned 483</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.box}>
-                <Image source={require("../assets/Group157.png")} ></Image>
+                <View style={{width:55,height:55,backgroundColor:'#f5e3dc',borderRadius:16,display:'flex',alignItems:'center',justifyContent:'center'}}>
+                    <Image source={require("../assets/Frame.png")} ></Image></View>
                 <Text style={{paddingVertical:7,}} >Counterfeits</Text>
                 <Text style={{color:'#B7B7C1',fontSize:12,}}>Counterfeited 32</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.box}>
-                <Image source={require("../assets/Group157.png")} ></Image>
+                <View style={{width:55,height:55,backgroundColor:'#daf3f1',borderRadius:16,display:'flex',alignItems:'center',justifyContent:'center'}}>
+                    <Image source={require("../assets/Group158.png")} ></Image></View>
                 <Text style={{paddingVertical:7,}} >Success</Text>
                 <Text style={{color:'#B7B7C1',fontSize:12,}}>Checkouts 8</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.box}>
-                <Image source={require("../assets/Group157.png")} ></Image>
+                <View style={{width:55,height:55,backgroundColor:'#d2edfa',borderRadius:16,display:'flex',alignItems:'center',justifyContent:'center'}}>
+                    <Image source={require("../assets/Group151.png")} ></Image></View>
                 <Text style={{paddingVertical:7,}} >Directory</Text>
                 <Text style={{color:'#B7B7C1',fontSize:12,}}>History 26</Text>
                 </TouchableOpacity>
